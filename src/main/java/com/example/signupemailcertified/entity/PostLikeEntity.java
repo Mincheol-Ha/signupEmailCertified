@@ -21,4 +21,5 @@ public class PostLikeEntity {
     private PostEntity post;
 
     private String email;
+
 }
