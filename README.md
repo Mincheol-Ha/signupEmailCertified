@@ -1,33 +1,33 @@
-📌 프로젝트명:
-Spring Boot 기반 REST API 개인 프로젝트
+### 📌 프로젝트명:
+#### Spring Boot 기반 REST API 개인 프로젝트
 
-📝 프로젝트 소개
+### 📝 프로젝트 소개
 Spring Boot와 MySQL 기반의 RESTful 게시판 API입니다.
 회원가입, 이메일 인증, 비밀번호 복잡성 검증, 게시글 CRUD 등 실무에서 자주 쓰는 백엔드 핵심 기능을 직접 구현했습니다.
 MapStruct, JavaMailSender, JWT 등 주요 라이브러리를 활용했으며, 확장성과 실용성을 중시했습니다.
 
-🚀 주요 기능
-회원가입
+### 🚀 주요 기능
+#### 회원가입
 
-이메일 중복 검증
+#### 이메일 중복 검증
 
-비밀번호 복잡성(특수문자 포함) 검증
+#### 비밀번호 복잡성(특수문자 포함) 검증
 
-이메일 인증(인증 메일 발송 & 인증 처리)
+#### 이메일 인증(인증 메일 발송 & 인증 처리)
 
-로그인 (JWT 토큰 발급)
+#### 로그인 (JWT 토큰 발급)
 
-게시글
+#### 게시글
 
-게시글 등록 / 조회 / 수정 / 삭제 (CRUD)
+#### 게시글 등록 / 조회 / 수정 / 삭제 (CRUD)
 
-비밀번호 유효성 검사
+#### 비밀번호 유효성 검사
 
-PasswordConstraintValidator를 통한 특수문자 포함 등 커스텀 검증
+#### PasswordConstraintValidator를 통한 특수문자 포함 등 커스텀 검증
 
-API 응답 DTO 변환
+#### API 응답 DTO 변환
 
-MapStruct를 이용한 Entity-DTO 자동 매핑
+#### MapStruct를 이용한 Entity-DTO 자동 매핑
 
 🛠️ 사용 기술 & 라이브러리
 Backend: Spring Boot 3.5.3
