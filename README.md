@@ -68,20 +68,20 @@ MapStruct, JavaMailSender, JWT 등 주요 라이브러리를 활용해 확장성
 
 ## 🗂️ 폴더 구조 (예시)
 
-src
-└─ main
-├─ java
-│ └─ com.example
-│ ├─ controller
-│ ├─ dto
-│ ├─ entity
-│ ├─ mapper
-│ ├─ repository
-│ ├─ service
-│ ├─ validator
-│ └─ config
-└─ resources
-└─ application.yml
+#### src
+#### └─ main
+#### ├─ java
+#### │ └─ com.example
+#### │ ├─ controller
+#### │ ├─ dto
+#### │ ├─ entity
+#### │ ├─ mapper
+#### │ ├─ repository
+#### │ ├─ service
+#### │ ├─ validator
+#### │ └─ config
+#### └─ resources
+#### └─ application.yml
 
 ---
 
