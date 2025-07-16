@@ -6,6 +6,7 @@ import com.example.signupemailcertified.web.dto.LoginResponseDto;
 import com.example.signupemailcertified.web.dto.SignupRequestDto;
 import com.example.signupemailcertified.web.dto.SignupResponseDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,7 +18,7 @@ public class UserController {
 
     // 1. 회원가입 (이메일 인증 메일 발송)
     @PostMapping("/signup")
-    public SignupResponseDto signup(@RequestBody SignupRequestDto signupRequestDto) {
+    public SignupResponseDto signup(@RequestBody @Validated SignupRequestDto signupRequestDto) {
         return userService.requestEmailVerification(signupRequestDto);
     }
 

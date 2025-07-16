@@ -69,6 +69,7 @@ public class CommentService {
         if(!comment.getEmail().equals(email))
             throw new IllegalArgumentException("본인 댓글 만 삭제할 수 있습니다.");
 
+        commentRepository.delete(comment);
     }
 
 }

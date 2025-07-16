@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CommentLikRequestDto {
+public class CommentLikeRequestDto {
     private Long CommentId;
     private Long postId;
     private String email;

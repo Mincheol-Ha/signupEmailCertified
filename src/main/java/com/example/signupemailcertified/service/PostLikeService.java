@@ -2,7 +2,6 @@ package com.example.signupemailcertified.service;
 
 import com.example.signupemailcertified.entity.PostEntity;
 import com.example.signupemailcertified.entity.PostLikeEntity;
-import com.example.signupemailcertified.mapper.PostMapper;
 import com.example.signupemailcertified.repository.PostLikeRepository;
 import com.example.signupemailcertified.repository.PostRepository;
 import com.example.signupemailcertified.web.dto.PostLikeResponseDto;
@@ -17,7 +16,6 @@ import java.util.Optional;
 public class PostLikeService {
 
     private final PostLikeRepository postLikeRepository;
-    private final PostMapper postMapper;
     private final PostRepository postRepository;
 
     @Transactional

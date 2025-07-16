@@ -23,7 +23,6 @@ import java.util.Optional;
 public class CommentLikeService {
 
     private final CommentLikeRepository commentLikeRepository;
-    private final CommentMapper commentMapper;
     private final CommentRepository commentRepository;
 
     @Transactional
